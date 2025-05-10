@@ -1,3 +1,4 @@
+import Companieslogo from "./Companieslogo";
 import Hero from "./Hero";
 export default function Herosection() {
   return (
@@ -5,6 +6,7 @@ export default function Herosection() {
       <section className="bg-white dark:bg-gray-900">
         <Hero></Hero>
       </section>
+      <Companieslogo></Companieslogo>
     </>
   );
 }
